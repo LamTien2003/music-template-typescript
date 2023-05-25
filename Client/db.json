@@ -1,0 +1,40 @@
+{
+  "songs": [
+    {
+      "id": 1,
+      "nameSong": "Chúng ta của hiện tại",
+      "author": "Sơn Tùng M-TP",
+      "view": 500,
+      "time": "4:40",
+      "image": "chungtacuahientai.jpg",
+      "music": "chungtacuahientai.mp3"
+    },
+    {
+      "id": 2,
+      "nameSong": "Anh đã ổn hơn",
+      "author": "MCK",
+      "view": 500,
+      "time": "2:40",
+      "image": "anh da on hon mck.jpg",
+      "music": "anhdaonhon.mp3"
+    },
+    {
+      "nameSong": "Nàng Thơ",
+      "author": "Hoàng Dũng",
+      "view": 100,
+      "time": "4:43",
+      "image": "nangtho.jpg",
+      "music": "nangtho.mp3",
+      "id": 3
+    },
+    {
+      "nameSong": "Thằng điên",
+      "author": "Justatee",
+      "view": "80",
+      "time": "4:43",
+      "image": "thangdien.jpg",
+      "music": "thangdien.mp3",
+      "id": 4
+    }
+  ]
+}

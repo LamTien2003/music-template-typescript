@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../public/css/main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar-head">
+                <h4>Lâm Tiến</h4>
+                <a href="#">Play now</a>
+            </div>
+            <div class="sidebar-menu">
+                <a href="./index.html" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    Trang chủ
+                </a>
+                <a href="./manageAdmin.html" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-book"></i></span>
+                    Quản trị Admin
+                </a>
+                <a href="./add.html" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+                    Thêm bài hát
+                </a>
+               
+            </div>
+            <div class="sidebar-foot">
+                <a href="#" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-gear"></i></span>
+                    Cài đặt
+                </a>
+                <a href="#" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-right-from-bracket"></i></span>
+                    Login
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-head">
+                <div class="search">
+                    <input type="text" placeholder="Tìm kiếm tại đây !!!">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="notify">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <a href="#" class="avatar">
+                    <img src="../public/images/avatar.jpg" alt="">
+                </a>
+            </div>
+            
+            <div class="content-main">
+                <div class="content-main-body content-add-form">
+                    <form class="login-form">
+                        <div class="input-box">
+                            <label for="name">Tên bài hát </label>
+                            <input id="name" type="text" placeholder="Nhập tên sản phẩm" name="name"/>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="author">Tác giả</label>
+                            <input id="author" type="text" placeholder="Nhập mô tả sản phẩm" name="author"/>
+                        </div>
+        
+                        <div class="input-box">
+                            <label for="view">Lượt xem</label>
+                            <input id="view" type="number" placeholder="1200000" name="view"/>
+                        </div>
+
+                        <div class="input-box">
+                            <label for="time">Thời lượng</label>
+                            <input id="time" type="text" placeholder="Nhập mô tả sản phẩm" name="time"/>
+                        </div>
+        
+                        <div class="input-box">
+                            <label for="image">Chọn hình ảnh </label>
+                            <input id="image" type="file" name="image" accept="image/*" />
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for="music">Chọn File nhạc </label>
+                            <input id="music" type="file" name="music" accept="audio/*" />
+                        </div>
+        
+                        <button class="btn btn--form" type="submit" value="Log in">Thêm mới</button>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+
+<script type="module" src="/Client/dist/sidebar.js"></script>
+<script type="module" src="/Client/dist/addForm.js"></script>
+
+</html>

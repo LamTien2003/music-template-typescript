@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../public/css/main.css">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="sidebar-head">
+                <h4>Lâm Tiến</h4>
+                <a href="#">Play now</a>
+            </div>
+            <div class="sidebar-menu">
+                <a href="./index.html" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-house"></i></span>
+                    Trang chủ
+                </a>
+                <a href="./manageAdmin.html" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-book"></i></span>
+                    Quản trị Admin
+                </a>
+                <a href="./add.html" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+                    Thêm bài hát
+                </a>
+               
+            </div>
+            <div class="sidebar-foot">
+                <a href="#" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-gear"></i></span>
+                    Cài đặt
+                </a>
+                <a href="#" class="sidebar-menu-item">
+                    <span><i class="fa-solid fa-right-from-bracket"></i></span>
+                    Login
+                </a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-head">
+                <div class="search">
+                    <input type="text" placeholder="Tìm kiếm tại đây !!!">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="notify">
+                    <i class="fa-regular fa-bell"></i>
+                </div>
+                <a href="#" class="avatar">
+                    <img src="../public/images/avatar.jpg" alt="">
+                </a>
+            </div>
+            <div class="content-slide">
+                <img src="../public/images/nangtho.jpg" alt="">
+                <div class="info">
+                    <h3 class="slide-title">Trang nhạc trực tuyến miễn phí</h3>
+                    <p><span class="count">43M</span> Lượt nghe mỗi tháng</p>
+                    <a href="#" class="follow-btn">Follow</a>
+                </div>
+                <div class="button-list">
+                    <div class="play-btn button-item">
+                        <i class="fa-solid fa-play"></i>
+                    </div>
+                    <div class="side-btn button-item">
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </div>
+                    <div class="side-btn button-item">
+                        <i class="fa-sharp fa-solid fa-download"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="content-main">
+                <div class="content-main-head">
+                    <h3># Title</h3>
+                    <div class="content-main-head-icon">
+                        <i class="fa-solid fa-music"></i>
+                    </div>
+                    <div class="content-main-head-icon">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                    <div class="content-main-head-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <div class="player-music">
+            <div class="title-box">
+                <img src="../public/images/avatar.jpg" alt="">
+                <div class="info">
+                    <p class="player-title"> Lane & Massanne</p>
+                    <p class="player-subtitle">And we know it</p>
+                </div>
+            </div>
+            <div class="button-box">
+                <div class="player-button previous-button"><i class="fa-solid fa-backward-step"></i></div>
+                <div class="player-button play"><i class="fa-solid fa-play"></i><i class="fa-solid fa-pause" style="display: none;"></i></div>
+                <div class="player-button next-button"><i class="fa-solid fa-forward-step"></i></div>
+            </div>
+            <div class="progress-box">
+                <span class="time-start">1:43</span>
+                <input id="range-slider__range" class="progress-range" type="range" value="0" min="0" max="100">
+                <span class="time-end">4:43</span>
+
+            </div>
+            <div class="volumn-box">
+                <i class="fa-solid fa-volume-high"></i>
+                <input id="range-slider__range" class="volumn-range" type="range" value="0" min="0" max="100">
+
+            </div>
+        </div>
+        <audio src="" class="audio"></audio>
+    </div>
+</body>
+<script type="module" src="/Client/dist/index.js"></script>
+<script type="module" src="/Client/dist/sidebar.js"></script>
+
+</html>
